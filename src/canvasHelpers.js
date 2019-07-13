@@ -1,6 +1,5 @@
 // nothing needs to change here. These helpers abstracted here just to keep
 // lesson focused on event handling and not hacky HTML5 canvas nonsense
-
 let colors = []
 let def = null
 let cycling = false
@@ -48,4 +47,5 @@ export function resize(type) {
   const multiplier = (type === "+") ? 1.1 : 0.9
   sizeX *= multiplier
   sizeY *= multiplier
+
 }
